@@ -1,5 +1,12 @@
 # infer (development version)
 
+* Added `perm_test()`, a covariate-adjusted blocked residual permutation test
+  for one or more coefficients of a Gaussian linear model. The function
+  permutes the reduced-model residuals within exchangeability blocks while
+  retaining the reduced-model fitted values, fits the full model to each
+  permuted response with infer's native fitter, and returns raw and
+  step-down maxT adjusted p-values from a single shared set of permutations.
+
 # infer 1.1.0
 
 * Fixed bug where adding `shade_confidence_interval(NULL)` or `shade_p_value(NULL)` 

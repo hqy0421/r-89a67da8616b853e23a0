@@ -39,6 +39,7 @@ reference:
 - title: Wrappers
   contents:
   - observe
+  - perm_test
   - ends_with("_test")
   - ends_with("_stat")
 - title: Miscellaneous
